@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPWJXeGZ2OW9QWHFyeSZzPWNvbnN1bWVyc2VjcmV0Jng9NDM-"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="./zemiBack.png">
+
+    <div id="chara">
+        <div id="ymap"></div>
+        <img src="./zemiTatie.png">
+        <button id="kao" type="button" onClick="hit(0)"></button>
+        <button id="karada" type="button" onClick="hit(1)"></button>
+        <button id="hidarite" type="button" onClick="hit(2)"></button>
+        <button id="migite" type="button" onClick="hit(3)"></button>
+        <button id="kosi" type="button" onClick="hit(4)"></button>
+    </div>
+
+
+    <div class="foot">
+        <button id="food" type="button" onClick="hit(5)">食事</button>
+        <button id="amuse" type="button" onClick="hit(6)">遊び</button>
+        <button id="shop" type="button" onClick="hit(7)">お店</button>
+        <button id="option" type="button" onClick="hit(8)">交通機関</button>
+
+        <div id="textwinA">
+            <img src="./zemiTextWin.png" alt="" id="textwin">
+        </div>
+    </div>
+    
+    <div id="ptex">
+        <p id="ctex">
+            ダミーテキストあああああああああああああああああああああ
+        </p>
+    </div>
+
+    <button id="next" type="button" onClick="hit(100)"></button>
+
+    <script type="text/javascript" src="yahooMap.js"></script>
+    <script type="text/javascript" src="text.js"></script>
+
+</body>
+
+</html>

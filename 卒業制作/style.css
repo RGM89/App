@@ -1,0 +1,179 @@
+body{
+    background-color: pink;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#chara{
+    position: relative;
+    text-align: right;
+}
+
+#ymap{
+  position: absolute;
+    width: 60vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+[src="./zemiTatie.png"]{
+    position: absolute;
+    width: 50vw;
+    left: 50vw;
+    height: auto;
+    top: -12vh;
+}
+
+#kao{
+    overflow : hidden;
+    outline : none;
+    display: inline;
+    background: rgba(0,0,0,0);
+    border: rgba(0,0,0,0);
+    width: 38vw;
+    height: 37.1vw;
+    position: absolute;
+    z-index: 100;
+    top: 1vh;
+    left: 55vw;
+}
+#karada{
+    overflow : hidden;
+    outline : none;
+    display: inline;
+    background: rgba(0,0,0,0);
+    border: rgba(0,0,0,0);
+    width: 25.5vw;
+    height: 50vw;
+    position: absolute;
+    z-index: 100;
+    top: 40vw;
+    left: 57vw;
+}
+#migite{
+    overflow : hidden;
+    outline : none;
+    display: inline;
+    background: rgba(0,0,0,0);
+    border: rgba(0,0,0,0);
+    width: 10vw;
+    height: 40vw;
+    position: absolute;
+    z-index: 100;
+    top:65vw;
+    left: 46.5vw;
+}
+#hidarite{
+    overflow : hidden;
+    outline : none;
+    display: inline;
+    background: rgba(0,0,0,0);
+    border: rgba(0,0,0,0);
+    width: 13vw;
+    height: 70vw;
+    position: absolute;
+    z-index: 100;
+    top: 46vw;
+    left: 83vw;
+}
+#kosi{
+    overflow : hidden;
+    outline : none;
+    display: inline;
+    background: rgba(0,0,0,0);
+    border: rgba(0,0,0,0);
+    width: 25.5vw;
+    height: 43vw;
+    position: absolute;
+    z-index: 100;
+    top: 90.5vw;
+    left: 57vw;
+}
+
+.foot{
+    font-size: 0;
+    /*display: flex;*/
+    position: relative;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    bottom: 20vh;
+    left: -8px;
+    background-color: yellow;
+}
+
+#food{
+    position: absolute;
+    /*align-items: flex-end;*/
+    width: 25vw;
+    height: 23vw;
+    background: rgba(128,255,255,1);
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+    visibility: visible;
+}
+
+#amuse{
+    position: absolute;
+    width: 25vw;
+    height: 23vw;
+    background: rgba(128,255,255,1);
+    left: 25vw;
+    z-index: 100;
+    visibility: visible;
+}
+
+#shop{
+    position: absolute;
+    width: 25vw;
+    height: 23vw;
+    background: rgba(128,255,255,1);
+    left: 50vw;
+    z-index: 100;
+    visibility: visible;
+}
+
+#option{
+    position: absolute;
+    width: 25vw;
+    height: 23vw;
+    background: rgba(128,255,255,1);
+    left: 75vw;
+    z-index: 100;
+    visibility: visible;
+}
+
+[src="./zemiTextWin.png"]{
+    position: absolute;
+    width: 100vw;
+    height: 20vh;
+    z-index: 200;
+    visibility: hidden;
+}
+
+#ptex{
+    position: absolute;
+    top: 80vh;
+    z-index: 300;
+    visibility: hidden;
+}
+
+#ctex{
+    color: white;
+    font-size: 20px;
+}
+
+#next{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    border: 0px;
+    padding: 0px;
+    background: rgba(0,0,0,0);
+    border: rgba(0,0,0,0);
+    z-index: 400;
+    visibility: hidden;
+}
